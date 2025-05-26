@@ -2,9 +2,9 @@ spring:
   application:
     name: product-category-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/your_database_name # Replace with your DB URL
-    username: your_db_username # Replace with your DB username
-    password: your_db_password # Replace with your DB password
+    url: jdbc:postgresql://localhost:5432/springfinalproject # Replace with your DB URL
+    username: postgres # Replace with your DB username
+    password: 123456 # Replace with your DB password
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
